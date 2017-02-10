@@ -69,21 +69,32 @@
             <point id="30" firstPoint="29" typeLine="hair" mx="0.132292" secondPoint="28" length="-Line_B1_B2" name="B4" lineColor="black" type="normal" angle="0" my="0.264583"/>
             <line id="31" firstPoint="30" typeLine="hair" secondPoint="27" lineColor="black"/>
             <point id="32" basePoint="26" typeLine="none" mx="0.132292" length="25.9664" name="B5" lineColor="black" type="endLine" angle="181.205" my="0.264583"/>
-            <point id="33" basePoint="32" typeLine="hair" mx="0.132292" length="Line_A6_A7" name="B6" lineColor="black" type="endLine" angle="94.3415" my="0.264583"/>
+            <point id="33" basePoint="32" typeLine="hair" mx="-0.827648" length="Line_A6_A7" name="B6" lineColor="black" type="endLine" angle="94.3415" my="-1.88116"/>
             <point id="34" firstPoint="33" typeLine="hair" mx="0.132292" secondPoint="32" length="-5" name="B7" lineColor="black" type="normal" angle="0" my="0.264583"/>
             <point id="35" firstPoint="34" typeLine="hair" mx="0.132292" secondPoint="33" length="-Line_B5_B6" name="B8" lineColor="black" type="normal" angle="0" my="0.264583"/>
             <line id="36" firstPoint="35" typeLine="hair" secondPoint="32" lineColor="black"/>
-            <point id="37" basePoint="26" typeLine="hair" mx="0.132292" length="Line_A_A2+Line_A2_A4" name="B9" lineColor="black" type="endLine" angle="90" my="0.264583"/>
-            <point id="38" basePoint="37" typeLine="hair" mx="0.132292" length="5" name="B10" lineColor="black" type="endLine" angle="90" my="0.264583"/>
+            <point id="37" basePoint="26" typeLine="none" mx="0.132292" length="Line_A_A2+Line_A2_A4" name="B9" lineColor="black" type="endLine" angle="90" my="0.264583"/>
+            <point id="38" basePoint="37" typeLine="dotLine" mx="0.132292" length="5" name="B10" lineColor="blue" type="endLine" angle="90" my="0.264583"/>
             <point id="39" firstPoint="38" typeLine="hair" mx="0.132292" secondPoint="37" length="-Line_A4_A5-5" name="B11" lineColor="black" type="normal" angle="0" my="0.264583"/>
             <point id="40" firstPoint="39" typeLine="hair" mx="0.132292" secondPoint="38" length="-5" name="B12" lineColor="black" type="normal" angle="0" my="0.264583"/>
             <line id="41" firstPoint="40" typeLine="hair" secondPoint="37" lineColor="black"/>
-            <point id="42" basePoint="38" typeLine="hair" mx="0.132292" length="67" name="B13" lineColor="black" type="endLine" angle="90" my="0.264583"/>
+            <point id="42" basePoint="38" typeLine="dotLine" mx="0.132292" length="67" name="B13" lineColor="blue" type="endLine" angle="90" my="0.264583"/>
             <line id="43" firstPoint="39" typeLine="hair" secondPoint="42" lineColor="black"/>
             <point id="44" basePoint="30" typeLine="hair" mx="0.132292" length="40" name="B14" lineColor="black" type="endLine" angle="270" my="0.264583"/>
             <line id="45" firstPoint="29" typeLine="hair" secondPoint="44" lineColor="black"/>
             <point id="68" firstPoint="28" typeLine="none" mx="0.132292" secondPoint="27" length="5" name="B15" lineColor="black" type="alongLine" my="0.264583"/>
             <point id="71" firstPoint="40" typeLine="none" mx="0.132292" secondPoint="37" length="5" name="B16" lineColor="black" type="alongLine" my="0.264583"/>
+            <point id="166" firstPoint="38" typeLine="hair" mx="0.132292" secondPoint="37" length="Line_B10_B11" name="B17" lineColor="black" type="normal" angle="0" my="0.264583"/>
+            <point id="167" firstPoint="166" typeLine="hair" mx="0.132292" secondPoint="38" length="Line_B11_B12" name="B18" lineColor="black" type="normal" angle="0" my="0.264583"/>
+            <line id="168" firstPoint="37" typeLine="hair" secondPoint="167" lineColor="black"/>
+            <line id="169" firstPoint="42" typeLine="hair" secondPoint="166" lineColor="black"/>
+            <point id="170" firstPoint="42" typeLine="none" mx="0.132292" secondPoint="166" length="5" name="B19" lineColor="black" type="alongLine" my="0.264583"/>
+            <spline id="171" angle2="180" length2="Line_B10_B11*2" angle1="233.704" length1="Line_B11_B13+5" point4="166" type="simpleInteractive" point1="170" color="darkGreen"/>
+            <point id="172" spline="171" mx="0.132292" length="Spl_B19_B17/2" name="B20" type="cutSpline" my="0.264583"/>
+            <line id="173" firstPoint="172" typeLine="dotLine" secondPoint="39" lineColor="blue"/>
+            <spline id="187" angle2="233.704" length2="Line_B11_B13+5" angle1="180" length1="Line_B10_B11*2" point4="170" type="simpleInteractive" point1="166" color="black"/>
+            <point id="191" firstPoint="170" typeLine="none" mx="0.132292" secondPoint="166" length="CurrentLength/2" name="B21" lineColor="black" type="alongLine" my="0.264583"/>
+            <line id="192" firstPoint="172" typeLine="dotLine" secondPoint="191" lineColor="blue"/>
         </calculation>
         <modeling>
             <point id="52" idObject="44" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
@@ -95,10 +106,32 @@
             <point id="59" idObject="35" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
             <point id="60" idObject="34" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
             <point id="61" idObject="33" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
-            <point id="63" idObject="40" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
-            <point id="64" idObject="39" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
-            <point id="65" idObject="42" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
-            <point id="66" idObject="37" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="63" idObject="40" inUse="false" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="64" idObject="39" inUse="false" mx="-7.87552" type="modeling" my="1.63177"/>
+            <point id="65" idObject="42" inUse="false" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="66" idObject="37" inUse="false" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="174" idObject="166" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="175" idObject="167" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="176" idObject="40" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="177" idObject="39" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="178" idObject="172" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <spline id="179" idObject="171" inUse="true" type="modelingSpline"/>
+            <point id="181" idObject="172" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="182" idObject="39" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="183" idObject="42" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="184" idObject="170" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <spline id="185" idObject="171" inUse="true" type="modelingSpline"/>
+            <point id="188" idObject="166" inUse="false" mx="0.132292" type="modeling" my="0.264583"/>
+            <spline id="189" idObject="187" inUse="false" type="modelingSpline"/>
+            <point id="190" idObject="170" inUse="false" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="193" idObject="166" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <spline id="194" idObject="187" inUse="true" type="modelingSpline"/>
+            <point id="195" idObject="172" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="196" idObject="191" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="198" idObject="191" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <point id="199" idObject="172" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
+            <spline id="200" idObject="187" inUse="true" type="modelingSpline"/>
+            <point id="201" idObject="170" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
         </modeling>
         <details>
             <detail id="57" version="2" forbidFlipping="false" width="2" united="false" mx="-0.0798243" name="Net Back" inLayout="true" seamAllowance="true" my="5.25588">
@@ -128,17 +161,59 @@
                     <node idObject="61" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail id="67" version="2" forbidFlipping="false" width="2" united="false" mx="0.149059" name="Net Front" inLayout="true" seamAllowance="true" my="-4.86821">
-                <data letter="NF" width="341.92" mx="-855.227" height="176.041" fontSize="43" visible="true" rotation="0" my="-8858.87">
-                    <mcp placement="1" material="4" cutNumber="1" userDef="Netting"/>
+            <detail id="180" version="2" forbidFlipping="false" width="1" united="false" mx="-41.3016" name="Front Left 1" inLayout="true" seamAllowance="true" my="-9.23584">
+                <data letter="FL1" width="370.739" mx="-1170.56" height="164.169" fontSize="40" visible="true" rotation="0" my="-8397.4">
+                    <mcp placement="0" material="4" cutNumber="1" userDef="Net"/>
                 </data>
-                <patternInfo width="26.4567" mx="-82.1361" height="26.4567" fontSize="5" visible="false" rotation="0" my="-8234.84"/>
+                <patternInfo width="0" mx="0" height="0" fontSize="0" visible="false" rotation="0" my="0"/>
                 <grainline arrows="0" mx="0" length="0" visible="false" rotation="90" my="0"/>
                 <nodes>
-                    <node idObject="63" type="NodePoint"/>
-                    <node idObject="64" type="NodePoint"/>
-                    <node idObject="65" after="0" type="NodePoint"/>
-                    <node idObject="66" before="0" type="NodePoint"/>
+                    <node idObject="174" after="2" type="NodePoint"/>
+                    <node idObject="175" after="2" before="2" type="NodePoint"/>
+                    <node idObject="176" after="2" before="2" type="NodePoint"/>
+                    <node idObject="177" after="0" before="2" type="NodePoint"/>
+                    <node idObject="178" before="0" type="NodePoint"/>
+                    <node idObject="179" reverse="0" type="NodeSpline"/>
+                </nodes>
+            </detail>
+            <detail id="186" version="2" forbidFlipping="false" width="2" united="false" mx="-45.994" name="Front Left 2" inLayout="true" seamAllowance="true" my="-17.6263">
+                <data letter="FL2" width="267.454" mx="-1312.58" height="164.169" fontSize="40" visible="true" rotation="0" my="-8745.65">
+                    <mcp placement="0" material="4" cutNumber="1" userDef="Net"/>
+                </data>
+                <patternInfo width="0" mx="0" height="0" fontSize="0" visible="false" rotation="0" my="0"/>
+                <grainline arrows="0" mx="0" length="0" visible="false" rotation="90" my="0"/>
+                <nodes>
+                    <node idObject="181" after="0" before="1" type="NodePoint"/>
+                    <node idObject="182" before="0" type="NodePoint"/>
+                    <node idObject="183" type="NodePoint"/>
+                    <node idObject="184" after="1" type="NodePoint"/>
+                    <node idObject="185" reverse="0" type="NodeSpline"/>
+                </nodes>
+            </detail>
+            <detail id="197" version="2" forbidFlipping="false" width="1" united="false" mx="-13.847" name="Front Right 1" inLayout="true" seamAllowance="true" my="-20.3798">
+                <data letter="FR1" width="310.489" mx="301.247" height="185.687" fontSize="45" visible="true" rotation="0" my="-8868.39">
+                    <mcp placement="0" material="4" cutNumber="1" userDef="Net"/>
+                </data>
+                <patternInfo width="0" mx="0" height="0" fontSize="0" visible="false" rotation="0" my="0"/>
+                <grainline arrows="0" mx="0" length="0" visible="false" rotation="90" my="0"/>
+                <nodes>
+                    <node idObject="193" before="2" type="NodePoint"/>
+                    <node idObject="194" reverse="0" type="NodeSpline"/>
+                    <node idObject="195" after="0" type="NodePoint"/>
+                    <node idObject="196" after="2" before="0" type="NodePoint"/>
+                </nodes>
+            </detail>
+            <detail id="202" version="2" forbidFlipping="false" width="1" united="false" mx="-34.8492" name="Front Right 2" inLayout="true" seamAllowance="true" my="-18.8938">
+                <data letter="FR2" width="284.668" mx="-275.426" height="198.598" fontSize="44" visible="true" rotation="0" my="-9870.64">
+                    <mcp placement="0" material="4" cutNumber="1" userDef="Net"/>
+                </data>
+                <patternInfo width="0" mx="0" height="0" fontSize="0" visible="false" rotation="0" my="0"/>
+                <grainline arrows="0" mx="0" length="0" visible="false" rotation="90" my="0"/>
+                <nodes>
+                    <node idObject="198" after="0" before="2" type="NodePoint"/>
+                    <node idObject="199" before="0" type="NodePoint"/>
+                    <node idObject="200" reverse="0" type="NodeSpline"/>
+                    <node idObject="201" after="2" type="NodePoint"/>
                 </nodes>
             </detail>
         </details>
@@ -198,33 +273,33 @@
             <point id="162" idObject="75" inUse="true" mx="0.132292" type="modeling" my="0.264583"/>
         </modeling>
         <details>
-            <detail id="101" version="2" forbidFlipping="false" width="3" united="false" mx="0.917294" name="Roof Back" inLayout="true" seamAllowance="true" my="13.5421">
+            <detail id="101" version="2" forbidFlipping="false" width="1.5" united="false" mx="0.917294" name="Roof Back" inLayout="true" seamAllowance="true" my="13.5421">
                 <data letter="RB" width="341.238" mx="1963.94" height="176.156" fontSize="43" visible="true" rotation="0" my="193.146">
                     <mcp placement="0" material="4" cutNumber="2" userDef="Sil Nylon"/>
                 </data>
                 <patternInfo width="0" mx="0" height="0" fontSize="0" visible="false" rotation="0" my="0"/>
                 <grainline arrows="0" mx="0" length="0" visible="false" rotation="90" my="0"/>
                 <nodes>
-                    <node idObject="98" before="2" type="NodePoint"/>
+                    <node idObject="98" before="1" type="NodePoint"/>
                     <node idObject="99" type="NodePoint"/>
-                    <node idObject="100" after="2" type="NodePoint"/>
+                    <node idObject="100" after="1" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail id="134" version="2" forbidFlipping="false" width="3" united="false" mx="-0.975967" name="Roof Front" inLayout="true" seamAllowance="true" my="-7.41108">
+            <detail id="134" version="2" forbidFlipping="false" width="1.5" united="false" mx="-0.975967" name="Roof Front" inLayout="true" seamAllowance="true" my="-7.41108">
                 <data letter="RF" width="326.343" mx="1255.43" height="179.827" fontSize="44" visible="true" rotation="0" my="-8635.63">
                     <mcp placement="0" material="4" cutNumber="2" userDef="Sil Nylon"/>
                 </data>
                 <patternInfo width="0" mx="0" height="0" fontSize="0" visible="false" rotation="0" my="0"/>
                 <grainline arrows="0" mx="0" length="0" visible="false" rotation="90" my="0"/>
                 <nodes>
-                    <node idObject="129" after="2" type="NodePoint"/>
-                    <node idObject="130" after="2" before="2" type="NodePoint"/>
+                    <node idObject="129" after="1" type="NodePoint"/>
+                    <node idObject="130" after="1" before="1" type="NodePoint"/>
                     <node idObject="131" reverse="0" type="NodeSpline"/>
-                    <node idObject="132" before="2" type="NodePoint"/>
+                    <node idObject="132" before="1" type="NodePoint"/>
                     <node idObject="133" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail id="148" version="2" forbidFlipping="false" width="3" united="false" mx="2.96657" name="Roof Center 1" inLayout="true" seamAllowance="true" my="-0.0898961">
+            <detail id="148" version="2" forbidFlipping="false" width="1.5" united="false" mx="2.96657" name="Roof Center 1" inLayout="false" seamAllowance="true" my="-0.0898961">
                 <data letter="RC1" width="264.891" mx="2255.79" height="175.911" fontSize="38" visible="true" rotation="0" my="-2667.95">
                     <mcp placement="0" material="4" cutNumber="2" userDef="Sil Nylon"/>
                 </data>
@@ -237,22 +312,22 @@
                     <node idObject="147" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail id="155" version="2" forbidFlipping="false" width="2" united="false" mx="0" name="Roof Center 2" inLayout="true" seamAllowance="true" my="0">
+            <detail id="155" version="2" forbidFlipping="false" width="1" united="false" mx="0" name="Roof Center 2" inLayout="true" seamAllowance="true" my="0">
                 <data letter="RC2" width="268.044" mx="1531.94" height="173.725" fontSize="39" visible="true" rotation="0" my="-2694.33">
                     <mcp placement="0" material="4" cutNumber="2" userDef="Sil Nylon"/>
                 </data>
                 <patternInfo width="0" mx="0" height="0" fontSize="0" visible="false" rotation="0" my="0"/>
                 <grainline arrows="0" mx="0" length="0" visible="false" rotation="90" my="0"/>
                 <nodes>
-                    <node idObject="149" after="3" before="0" type="NodePoint"/>
-                    <node idObject="150" before="3" type="NodePoint"/>
+                    <node idObject="149" after="1.5" before="0" type="NodePoint"/>
+                    <node idObject="150" before="1.5" type="NodePoint"/>
                     <node idObject="151" reverse="0" type="NodeSpline"/>
                     <node idObject="152" type="NodePoint"/>
-                    <node idObject="153" after="3" type="NodePoint"/>
-                    <node idObject="154" after="0" before="3" type="NodePoint"/>
+                    <node idObject="153" after="1.5" type="NodePoint"/>
+                    <node idObject="154" after="0" before="1.5" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail id="163" version="2" forbidFlipping="false" width="3" united="false" mx="49.9005" name="Roof Center Cat" inLayout="true" seamAllowance="true" my="-0.0902778">
+            <detail id="163" version="2" forbidFlipping="false" width="1.5" united="false" mx="49.9005" name="Roof Center Cat" inLayout="true" seamAllowance="true" my="-0.0902778">
                 <data letter="RC1" width="300.318" mx="2284.18" height="180.155" fontSize="37" visible="true" rotation="0" my="-2615.66">
                     <mcp placement="0" material="4" cutNumber="2" userDef="Sil Nylon"/>
                 </data>
